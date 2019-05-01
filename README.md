@@ -58,3 +58,21 @@ Fancyss is a project providing tools to across the GFW on asuswrt/merlin based r
 #### 相关链接：
 * mipsel机型的科学上网离线包：[https://github.com/hq450/fancyss_history_package/tree/master/fancyss_mipsel](https://github.com/hq450/fancyss_history_package/tree/master/fancyss_mipsel)
 * mipsel机型的固件下载地址：[http://koolshare.cn/forum-96-1.html](http://koolshare.cn/forum-96-1.html)
+
+####手动安装教程
+
+https://www.codeidc.com/archives/99
+
+
+cd /tmp
+
+wget --no-check-certificate https://github.com/hq450/fancyss/blob/master/fancyss_arm/shadowsocks.tar.gz
+
+tar -zxvf /tmp/shadowsocks.tar.gz
+
+chmod +x /tmp/shadowsocks/install.sh
+
+sh /tmp/shadowsocks/install.sh
+
+
+
